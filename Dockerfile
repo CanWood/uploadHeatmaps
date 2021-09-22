@@ -18,7 +18,7 @@ RUN \
 RUN echo "Install Mongo and Node"
 
 RUN echo "deb [ arch=amd64 ] http://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.0 multiverse" | tee /etc/apt/sources.list.d/mongodb-org-4.0.list
-RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 68818C72E52529D4
+RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 68818C72E52529D4
 
 RUN apt-get update
 RUN apt-get -y upgrade
