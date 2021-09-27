@@ -34,3 +34,5 @@ Usage: $ uploadHeatmaps.sh [options] -c <pathDB_collection> -i <input folder> -o
 ```
 
 Depending on the number of images and their resolution it may take some time to complete.  Do not stop the process until it completes.  If an error occurs then no data will be uploaded.
+
+another line
